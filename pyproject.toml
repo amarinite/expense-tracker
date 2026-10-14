@@ -1,0 +1,17 @@
+[project]
+name = "tracker-project"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "flake8>=7.4.1",
+    "mypy>=2.4.0",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+check = "tracker.checks:main"

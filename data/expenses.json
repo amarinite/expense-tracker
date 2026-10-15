@@ -1,0 +1,19 @@
+{
+  "expenses": [
+    {
+      "amount": 12.5,
+      "category": "food",
+      "note": ""
+    },
+    {
+      "amount": 12.0,
+      "category": "food",
+      "note": ""
+    },
+    {
+      "amount": 12.0,
+      "category": "food",
+      "note": ""
+    }
+  ]
+}
